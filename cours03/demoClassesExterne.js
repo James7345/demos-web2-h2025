@@ -9,7 +9,7 @@ Références utiles
 */
 
 // Importer la classe Personne
-
+import Personne from './Personne.js';
 
 // Création d'objets avec la classe Personne
 const personne1 = new Personne("Maxime", 44);
