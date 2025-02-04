@@ -21,10 +21,14 @@ const personne6 = new Personne("Bob", 57);
 
 // EXERCICE
 // a) Mettre les objets Personne dans un tableau
-
+const personnes = [personne1, personne2, personne3, personne4, personne5, ];
 
 // b) Boucle for... of sur le tableau pour appeler .afficherDetails() de chacun des objets
-
+for(const personne of personnes) {
+    personne.afficherDetails();
+}
 
 // c) Trier les personnes du tableau par ordre alphabétique inverse
-
+personnes.sort((elm1,elm2) => elm1.nom.localeCompare(elm2.nom));
+personnes.reverse();
+console.log(personnes);

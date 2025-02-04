@@ -8,3 +8,6 @@ export default class Personne {
         console.log(`Bonjour, je m'appelle ${this.nom} et j'ai ${this.age} ans.`);
     }
 }
+
+const x = 3;
+
